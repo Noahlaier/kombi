@@ -3,7 +3,7 @@
  * Template Name: Billetter
  * Description: Tilpasset bookingkalender til Lost Dream.
  */
-/**OpenAI. (2025). ChatGPT [large language model], https://chatgpt.com/share/6837187b-37b0-800f-857d-98acaf9a18b3 28/05 2025*/
+/**OpenAI. (2025). ChatGPT [large language model], https://chatgpt.com/share/6837187b-37b0-800f-857d-98acaf9a18b3 - lokaliseret d. 28/05 2025*/
 get_header();
 ?>
 
