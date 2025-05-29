@@ -1,9 +1,9 @@
-<?php
+ <?php
 /**
  * Template Name: Billetter
  * Description: Tilpasset bookingkalender til Lost Dream.
  */
-/**OpenAI. (2025). ChatGPT [large language model], https://chatgpt.com/share/6837187b-37b0-800f-857d-98acaf9a18b3 - lokaliseret d. 28/05 2025*/
+/**OpenAI. (2025). ChatGPT [large language model], https://chatgpt.com/share/6837187b-37b0-800f-857d-98acaf9a18b3 28/05 2025*/
 get_header();
 ?>
 
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Når CTA-knappen klikkes, og den er aktiveret, redirect til ny side
   ctaButton.addEventListener("click", function() {
     if (!ctaButton.disabled) {
-      window.location.href = "http://eksamensprojekt-kom-bi.local/vaelg-pladser/";
+      window.location.href = "https://laierdesign.dk/vaelg-pladser/";
     }
   });
 });

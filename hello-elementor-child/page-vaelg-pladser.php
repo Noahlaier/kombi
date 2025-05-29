@@ -11,7 +11,7 @@ get_header(); ?>
 
     /* Generel stil og baggrund */
     body {
-        background-color: #171717;
+        background-color: #373737;
         color: #f5f5f5;
         font-family: 'Roboto', sans-serif;
     }
@@ -315,7 +315,7 @@ get_header(); ?>
             event.preventDefault();
             // Her kan evt. backend håndtering tilføjes senere
 
-            window.location.href = "http://eksamensprojekt-kom-bi.local/kob-af-billet-gennemfort/";
+            window.location.href = "https://laierdesign.dk/kob-af-billet-gennemfort/";
             return false;
         }
 

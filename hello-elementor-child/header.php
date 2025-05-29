@@ -1,5 +1,16 @@
 <?php
-//... your PHP code from before ...
+// Your existing PHP code, if any...
+
+// Define variables if they aren't already set to avoid errors
+if ( ! isset( $viewport_content ) ) {
+    $viewport_content = 'width=device-width, initial-scale=1';
+}
+if ( ! isset( $enable_skip_link ) ) {
+    $enable_skip_link = true;
+}
+if ( ! isset( $skip_link_url ) ) {
+    $skip_link_url = '#content';
+}
 ?>
 
 <!doctype html>
@@ -11,6 +22,7 @@
 	<?php wp_head(); ?>
 	<script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TAvE8a'></script>
 </head>
+
 <body <?php body_class(); ?>>
 
 <?php wp_body_open(); ?>
